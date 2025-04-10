@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: bisque;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: darkblue;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.choice {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.choice:hover {
+    background-color: #333;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.choice:hover img {
+    transform: scale(1.05);
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 40px;
+    font-size: 2rem;
+}
+
+#userScore {
+    color: green;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#compScore {
+    color: red;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+#you, #comp {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: aqua;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.msg {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px grey;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+.msg:hover {
+    background-color: skyblue;
+    cursor: pointer;
+    color: white;
+}
+
+
