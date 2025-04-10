@@ -2,7 +2,7 @@
 This is My First Game in GitHub
 # 🪨📄✂️ Stone Paper Scissors Game
 
-A simple and fun **Stone-Paper-Scissors** (Rock-Paper-Scissors) game built using **HTML**, **CSS**, and **JavaScript**. This project is made using basic frontend technologies with no frameworks — perfect for beginners looking to understand how JavaScript can be used to build interactive games!
+A simple and fun **Stone-Paper-Scissors** (Rock-Paper-Scissors) game built using **HTML**, **CSS**, and **JavaScript**. This project is made using basic frontend technologies with no frameworks — perfect for beginners looking to understand how  html , css and JavaScript can be used to build interactive games!
 
 ---
 
